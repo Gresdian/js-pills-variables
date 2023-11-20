@@ -19,5 +19,11 @@ console.log(name);
 let greet = 'ciao, mondo!'
 console.log(greet);
 
-let greet = 'come stai, mondo!'
-console.log(greet);
+/* let greet = 'come stai, mondo!'
+console.log(greet); */
+
+let variable = greet + 'Come stai?'
+console.log(variable)
+
+let variable2 = `${greet} Come stai?`
+console.log(variable2)
