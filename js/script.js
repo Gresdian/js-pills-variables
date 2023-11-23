@@ -63,5 +63,42 @@ console.log(comparison); */
     console.log(i);
 }*/
 
-const numbers = [1, 2 ,3 ,4 ,5 ,6 ,7 ,8];
+/* const numbers = [1, 2 ,3 ,4 ,5 ,6 ,7 ,8];
 console.log(numbers);
+
+const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
+console.log(fruits.length); */
+
+/* Esercizio 2/A */
+const numOfElements =  prompt('inserisci un numero intero')
+
+let numbers = [];
+
+ for (let i = 1; i <= numOfElements ; i++) {
+    numbers.push(parseInt(Math.random() * 10) + 1);
+    numbers.push(i);
+}
+
+console.log(numbers);
+
+/* let sum = 0 */
+/* **Esercizio 2/B**  */
+/* for (let i = 0 ; i < numbers.lenght; i++) {
+    sum = sum + numbers[i];
+}
+
+console.log(sum);
+let i = numbers
+if (numbers > i){
+    console.log(numbers > numOfElements);
+}
+ */ 
+/* **Esercizio 2/C** */
+let maggiore = 1; 
+for (let i = 0; i < numbers.lenght; i++ ) {
+     if (numbers[i] > maggiore) {
+        maggiore = numbers [i];
+     }
+}
+
+console.log(maggiore)
