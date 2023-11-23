@@ -55,11 +55,13 @@ else{
 
 console.log(comparison); */
 
-/* for(i=1, i>=42 ,i++){
+/* for(i=1, i>0, i++){
     console.log(i);
 } */
 
-for(i=42, i>0 ,i--){
+/* for(i=42, i>0 ,i--){
     console.log(i);
-}
+}*/
 
+const numbers = [1, 2 ,3 ,4 ,5 ,6 ,7 ,8];
+console.log(numbers);
