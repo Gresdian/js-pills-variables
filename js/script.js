@@ -43,7 +43,7 @@ else{
 console.log(comparison)
  */
 
-let num= 40;
+/* let num= 40;
 let comparison = true;
 
 if (num == "10"){
@@ -53,4 +53,13 @@ else{
     comparison = false
 }
 
-console.log(comparison);
+console.log(comparison); */
+
+/* for(i=1, i>=42 ,i++){
+    console.log(i);
+} */
+
+for(i=42, i>0 ,i--){
+    console.log(i);
+}
+
