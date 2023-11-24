@@ -70,7 +70,7 @@ const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi',
 console.log(fruits.length); */
 
 /* Esercizio 2/A */
-const numOfElements =  prompt('inserisci un numero intero')
+/* const numOfElements =  prompt('inserisci un numero intero')
 
 let numbers = [];
 
@@ -79,7 +79,7 @@ let numbers = [];
     numbers.push(i);
 }
 
-console.log(numbers);
+console.log(numbers); */
 
 /* let sum = 0 */
 /* **Esercizio 2/B**  */
@@ -94,11 +94,22 @@ if (numbers > i){
 }
  */ 
 /* **Esercizio 2/C** */
-let maggiore = 1; 
+/* let maggiore = 1; 
 for (let i = 0; i < numbers.lenght; i++ ) {
      if (numbers[i] > maggiore) {
         maggiore = numbers [i];
      }
 }
 
-console.log(maggiore)
+console.log(maggiore) */
+
+
+let num1 = prompt('inserisci primo numero');
+let num2 = prompt('inserisci secondo numero');
+
+if(num1 < num2){
+    console.log(num2);
+}else
+{
+    console.log(num1);
+}
