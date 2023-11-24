@@ -109,7 +109,8 @@ let num2 = prompt('inserisci secondo numero');
 
 if(num1 < num2){
     console.log(num2);
-}else
-{
+} else if(num1 > num2){
     console.log(num1);
+}else{
+    console.log('I numeri sono uguali');
 }
