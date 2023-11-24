@@ -103,7 +103,7 @@ for (let i = 0; i < numbers.lenght; i++ ) {
 
 console.log(maggiore) */
 
-
+/* 
 let num1 = prompt('inserisci primo numero');
 let num2 = prompt('inserisci secondo numero');
 
@@ -113,4 +113,48 @@ if(num1 < num2){
     console.log(num1);
 }else{
     console.log('I numeri sono uguali');
+} */
+
+
+/* let somma = 0;
+for(let i=1 ; i <=10; i++ ){
+    let num = parseInt(prompt('inserisci il numero'));
+
+    somma += num;
 }
+console.log(somma); */
+/* let nome = prompt('inseerisci il tuo nome');
+let invitati = ['tizio' , 'caio' , 'sempronio'];
+let flag = false;
+/* if(invitati[0] != nome && invitati[1] != nome && invitati[2] != nome) {
+    console.log('Non puoi entrare!')
+} else {
+    console.log('Puoi entrare!')
+} */
+
+/* for(let i=0; i<invitati.length; i++){
+    if(invitati[i] == nome){
+        flag = true;
+    }
+}
+
+if(flag){
+    console.log('Puoi entrare!');
+}
+else{
+    console.log('Non puoi entrare!');
+}
+ */
+
+
+numbers = [];
+
+for(let i=1 ; i<=6; i++){
+    let num = parseInt(prompt('inserisci un numero'));
+    
+    if(num % 2 != 0){
+        numbers.push(num);
+    }
+}
+
+console.log(numbers);
