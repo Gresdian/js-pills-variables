@@ -147,7 +147,7 @@ else{
  */
 
 
-numbers = [];
+/* numbers = [];
 
 for(let i=1 ; i<=6; i++){
     let num = parseInt(prompt('inserisci un numero'));
@@ -157,4 +157,20 @@ for(let i=1 ; i<=6; i++){
     }
 }
 
-console.log(numbers);
+console.log(numbers); */
+
+let num = prompt('inserisci un numero')
+
+let a = 0, b = 1;
+let c;
+let i = 0;
+
+console.log(a,b);
+while(i<num ){
+    c = a + b;
+    a = b;
+    b = c;
+    console.log(c);
+
+    i++
+}
