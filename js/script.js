@@ -185,3 +185,7 @@ function somma(num1 , num2){
     let result = num1 + num2;
     return result;
 }
+
+let risultato = somma(7,10)
+
+console.log(risultato);
