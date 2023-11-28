@@ -159,7 +159,7 @@ for(let i=1 ; i<=6; i++){
 
 console.log(numbers); */
 
-let num = prompt('inserisci un numero')
+/* let num = prompt('inserisci un numero')
 
 let a = 0, b = 1;
 let c;
@@ -173,4 +173,15 @@ while(i<num ){
     console.log(c);
 
     i++
+} */
+
+function printHelloWorld(){
+    console.log('Ciao Mondo');
+}
+printHelloWorld();
+
+
+function somma(num1 , num2){
+    let result = num1 + num2;
+    return result;
 }
