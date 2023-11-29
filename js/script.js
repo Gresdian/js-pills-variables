@@ -175,7 +175,7 @@ while(i<num ){
     i++
 } */
 
-function printHelloWorld(){
+/* function printHelloWorld(){
     console.log('Ciao Mondo');
 }
 printHelloWorld();
@@ -188,4 +188,13 @@ function somma(num1 , num2){
 
 let risultato = somma(7,10)
 
-console.log(risultato);
+console.log(risultato); */
+
+function getOneStringFromTwo(string1 , string2){
+    let result = `${string1} ${string2}`;
+    return result;
+}
+
+let union = getOneStringFromTwo('Federico', 'Chiesa')
+
+console.log(union);
